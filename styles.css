@@ -81,25 +81,80 @@ nav ul li:hover, nav ul li:active {
     color: #0A100D;
 }
 
+.fill {
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
 
-/* Home Content */
-.home{
-    background-color: #0A100D;
-    height: auto;
-}
-#home-img {
-    height: auto;
-    width: auto;
-}
-.home-head{
+.content-header {
     position: absolute;
     top: 0;
     left: 0;
-    height: 15vh;
+    height: auto;
     width: 100%;
     background-color: #b9baa3ac;
     color: #A22C29;
     text-align: center;
     justify-content: center;
     transition: none;
+    padding: 0 1em;
+}
+/* Home Content */
+.home {
+    background-color: #0A100D;
+    height: auto;
+}
+
+.home-bg {
+    background-image: url('images/home.jpg');
+}
+
+
+/* Artists Content */
+
+.artists-bg {
+    background-image: url('images/artists.jpg');
+}
+
+/* Shorts Content */
+
+.shorts-bg {
+    background-image: url('images/shorts.jpg');
+}
+
+/* Buy Content */
+
+.buy-bg {
+    background-image: url('images/buy.jpg');
+}
+
+/* Contact Content */
+
+.contact-bg {
+    background-image: url('images/contact.jpg');
+}
+
+.contact-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    height: auto;
+    width: 100%;
+    
+    background-color: #b9baa3ac;
+    color: #A22C29;
+    
+    text-align: center;
+    justify-content: center;
+    transition: none;
+    padding: 0 1em;
+}
+.contact-footer a {
+    color: #A22C29;
+}
+.contact-footer a:hover, .contact-footer a:active {
+    color: #0A100D;
 }
