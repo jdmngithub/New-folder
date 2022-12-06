@@ -25,10 +25,10 @@ body {
 
 .phone {
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     border: 3px solid #eee;
     border-radius: 15px;
-    height: 100vh;
+    height: 90vh;
     width:100vw;
 }
 
@@ -157,4 +157,22 @@ nav ul li:hover, nav ul li:active {
 }
 .contact-footer a:hover, .contact-footer a:active {
     color: #0A100D;
+}
+
+.contact-back {
+    color: #A22C29;
+    text-decoration: none;
+}
+.contact-back a:hover, .contact-back a:active {
+    color: #0A100D;
+}
+
+.contact-pg-bg {
+    background-image: url('images/contact2.jpg');
+}
+
+@media screen and (min-width: 800px ){
+    .phone {
+        margin: 10vw;
+    } 
 }
